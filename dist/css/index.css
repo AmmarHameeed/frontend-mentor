@@ -1,16 +1,136 @@
 body{
     margin: 0;
     overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
 }
 .fm-banner{
     position: relative;
+    height: 729px;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../../assets/home/desktop/image-hero.jpg");
 }
 .fm-banner .container{
     position: relative;
 }
 .fm-nav {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
+    padding-top: 35px;
+    padding-bottom: 45px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #979797;
+}
+.cart-icon{
+    cursor: pointer;
+    display: inline-block;
+    width: 23px;
+    height: 20px;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23' height='20'%3E%3Cpath d='M8.625 15.833c1.132 0 2.054.935 2.054 2.084 0 1.148-.922 2.083-2.054 2.083-1.132 0-2.054-.935-2.054-2.083 0-1.15.922-2.084 2.054-2.084zm9.857 0c1.132 0 2.054.935 2.054 2.084 0 1.148-.922 2.083-2.054 2.083-1.132 0-2.053-.935-2.053-2.083 0-1.15.92-2.084 2.053-2.084zm-9.857 1.39a.69.69 0 00-.685.694.69.69 0 00.685.694.69.69 0 00.685-.694.69.69 0 00-.685-.695zm9.857 0a.69.69 0 00-.684.694.69.69 0 00.684.694.69.69 0 00.685-.694.69.69 0 00-.685-.695zM4.717 0c.316 0 .59.215.658.517l.481 2.122h16.47a.68.68 0 01.538.262c.127.166.168.38.11.579l-2.695 9.236a.672.672 0 01-.648.478H7.41a.667.667 0 00-.673.66c0 .364.303.66.674.66h12.219c.372 0 .674.295.674.66 0 .364-.302.66-.674.66H7.412c-1.115 0-2.021-.889-2.021-1.98 0-.812.502-1.511 1.218-1.816L4.176 1.32H.674A.667.667 0 010 .66C0 .296.302 0 .674 0zm16.716 3.958H6.156l1.797 7.917h11.17l2.31-7.917z' fill='%23FFF' fill-rule='nonzero'/%3E%3C/svg%3E");
+}
+.fm-navbar-middle .nav-links {
+    padding-left: 33px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.fm-navbar-middle .nav-links:first-child {
+    padding-left: 0px;
+}
+.fm-navbar-middle .nav-links:hover {
+    text-decoration: underline;
+}
+.fm-banner-text {
+    margin-top: 130px;
+    width: 398px;
+    color: #ffffff;
+}
+.fm-banner-small-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+.fm-banner-heading {
+    margin: 30px 0;
+    font-size: 56px;
+    font-weight: 700;
+}
+.fm-banner-description {
+    font-size: 15px;
+    font-weight: 200;
+}
+a.fm-banner-see-product-btn {
+    height: 48px;
+    margin-top: 45px;
+    background: #D87D4A;
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 160px;
+    display: block;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+}
+.fm-ad-row {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 168px;
+    justify-content: space-between;
+    align-items: center;
+}
+.fm-ad-item {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 33%;
+    height: 284px;
+    cursor: pointer;
+}
+.fm-ad-item img {
+    margin: 30px 0 15px;
+    max-width: 160px;
+}
+.fm-ad-grey-overlay{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    left: 0;
+    height: 204px;
+    background: #f1f1f1;
+    z-index: -1;
+}
+.fm-ad-category-name {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.fm-ad-shop-btn {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #00000080;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.fm-ad-shop-btn:hover {
+    color: #00000080;
+}
+.fm-ad-shop-btn .right-icon-orange {
+    display: inline-block;
+    margin-left: 10px;
+    width: 7px;
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='12'%3E%3Cpath d='M1.322 1l5 5-5 5' stroke='%23D87D4A' stroke-width='2' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
