@@ -3,21 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
   <title>Frontend Mentor | Audiophile e-commerce website</title>
+  <link rel="stylesheet" href="./dist/css/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-  Home
-  Headphones
-  Speakers
-  Earphones
+  <div class="fm-banner">
+    <div class="container">
+      <nav class="fm-nav">
+        <div class="fm-navbar-left">
+          <a href="index.html">
+            <img src="./assets/shared/desktop/logo.svg">
+          </a>
+        </div>
+        <div class="fm-navbar-right">
+          <a href="#">Home</a>
+        <a href="#">Headphones</a>
+        <a href="#">Speakers</a>
+        <a href="#">Earphones</a>
+        </div>
+        
+      </nav>
+    </div>
+    <picture>
+      <source media="(min-width:1024px)" srcset="assets/home/desktop/image-hero.jpg">
+      <source media="(min-width:768px)" srcset="assets/home/tablet/image-header.jpg">
+      <source media="(min-width:320px)" srcset="assets/home/mobile/image-header.jpg">
+      <img src="img_orange_flowers.jpg" alt="Flowers" style="width: -webkit-fill-available;">
+    </picture>
+  </div>
 
   New product
   XX99 Mark II Headphones
   Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
-  
+
   See product
 
   Headphones
@@ -40,10 +61,10 @@
   See product
 
   Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones, 
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration 
-  rooms available for you to browse and experience a wide range of our products. Stop by our store 
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable 
+  Located at the heart of New York City, Audiophile is the premier store for high end headphones,
+  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
+  rooms available for you to browse and experience a wide range of our products. Stop by our store
+  to meet some of the fantastic people who make Audiophile the best place to buy your portable
   audio equipment.
 
   Home
@@ -51,10 +72,12 @@
   Speakers
   Earphones
 
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers 
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and 
+  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
+  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
   visit our demo facility - we’re open 7 days a week.
 
   Copyright 2021. All Rights Reserved
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
