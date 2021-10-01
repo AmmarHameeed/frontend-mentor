@@ -4,60 +4,150 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
   <title>Frontend Mentor | Audiophile e-commerce website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./dist/css/index.css">
 </head>
 
 <body>
-  Home
-  Headphones
-  Speakers
-  Earphones
+  <div class="fm-category-banner">
+    <div class="container">
+      <nav class="fm-nav">
+        <div class="fm-navbar-left">
+          <a href="index.html">
+            <img src="./assets/shared/desktop/logo.svg">
+          </a>
+        </div>
+        <div class="fm-navbar-middle">
+          <a class="nav-links" href="index.html">Home</a>
+          <a class="nav-links" href="headphones.html">Headphones</a>
+          <a class="nav-links" href="speakers.html">Speakers</a>
+          <a class="nav-links" href="earphones.html">Earphones</a>
+        </div>
+        <a class="cart-btn">
+          <i class="cart-icon"></i>
+        </a>
 
-  New product
-
-  ZX9 speaker
-  Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker 
-  system that offers truly wireless connectivity -- creating new possibilities for more 
-  pleasing and practical audio setups.
-
-  See product
-
-  ZX7 speaker
-  Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses 
-  high-end audiophile components that represents the top of the line powered speakers for 
-  home or studio use.
-
-  See product
-
-  Headphones
-  Shop
-  
-  Speakers
-  Shop
-  
-  Earphones
-  Shop
-
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones,
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
-  rooms available for you to browse and experience a wide range of our products. Stop by our store
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable
-  audio equipment.
-
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
-  visit our demo facility - we’re open 7 days a week.
-
-  Copyright 2021. All Rights Reserved
+      </nav>
+      <div class="fm-category-banner-text">
+        <h1 class="fm-category-banner-heading">Speakers</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="fm-category-product-wrapper">
+      <div class="fm-category-product-box">
+        <div class="product-box-left">
+          <img src="./assets/product-zx9-speaker/desktop/image-category-page-preview.jpg">
+        </div>
+        <div class="product-box-right">
+          <div class="content-wrapper">
+            <span class="product-box-new-product-text">New Product</span>
+            <h1 class="product-box-heading">ZX9 SPEAKER</h1>
+            <p class="product-box-description">Upgrade your sound system with the all new ZX9 active speaker. It’s a
+              bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more
+              pleasing and practical audio setups.</p>
+            <a class="category-see-product-btn">See Product</a>
+          </div>
+        </div>
+      </div>
+      <div class="fm-category-product-box even">
+        <div class="product-box-left">
+          <img src="./assets/product-zx7-speaker/desktop/image-category-page-preview.jpg">
+        </div>
+        <div class="product-box-right">
+          <div class="content-wrapper">
+            <h1 class="product-box-heading">ZX7 SPEAKER</h1>
+            <p class="product-box-description">Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf
+              speaker uses high-end audiophile components that represents the top of the line powered speakers for home
+              or studio use.</p>
+            <a class="category-see-product-btn">See Product</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fm-ad-row">
+      <div class="fm-ad-item">
+        <img src="./assets/shared/desktop/image-category-thumbnail-headphones.png">
+        <span class="fm-ad-category-name">Headphones</span>
+        <a class="fm-ad-shop-btn">Shop <i class="right-icon-orange"></i></a>
+        <div class="fm-ad-grey-overlay"></div>
+      </div>
+      <div class="fm-ad-item">
+        <img src="./assets/shared/desktop/image-category-thumbnail-speakers.png">
+        <span class="fm-ad-category-name">Speakers</span>
+        <a class="fm-ad-shop-btn">Shop <i class="right-icon-orange"></i></a>
+        <div class="fm-ad-grey-overlay"></div>
+      </div>
+      <div class="fm-ad-item">
+        <img src="./assets/shared/desktop/image-category-thumbnail-earphones.png">
+        <span class="fm-ad-category-name">Earphones</span>
+        <a class="fm-ad-shop-btn">Shop <i class="right-icon-orange"></i></a>
+        <div class="fm-ad-grey-overlay"></div>
+      </div>
+    </div>
+    <div class="fm-best-gear-section">
+      <div class="fm-best-gear-left">
+        <div class="content-wrapper">
+          <h4 class="fm-best-gear-left-heading">
+            Bringing you the <span class="orange-text">best</span> audio gear
+          </h4>
+          <p class="fm-best-gear-left-description">
+            Located at the heart of New York City, Audiophile is the premier store for high end headphones,
+            earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
+            rooms available for you to browse and experience a wide range of our products. Stop by our store
+            to meet some of the fantastic people who make Audiophile the best place to buy your portable
+            audio equipment.
+          </p>
+        </div>
+      </div>
+      <div class="fm-best-gear-right">
+        <img src="./assets/shared/desktop/image-best-gear.jpg">
+      </div>
+    </div>
+  </div>
+  <footer class="fm-footer">
+    <div class="container">
+      <div class="fm-footer-nav">
+        <div class="fm-navbar-left">
+          <a href="index.html">
+            <img src="./assets/shared/desktop/logo.svg">
+          </a>
+        </div>
+        <div class="fm-navbar-middle">
+          <a class="nav-links" href="index.html">Home</a>
+          <a class="nav-links" href="headphones.html">Headphones</a>
+          <a class="nav-links" href="speakers.html">Speakers</a>
+          <a class="nav-links" href="earphones.html">Earphones</a>
+        </div>
+      </div>
+      <div class="fm-footer-middle-row">
+        <div class="fm-footer-description">
+          <p>
+            Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
+            and sound specialists who are devoted to helping you get the most out of personal audio. Come and
+            visit our demo facility - we’re open 7 days a week.
+          </p>
+        </div>
+        <div class="fm-footer-social-links">
+          <div class="content-wrapper">
+            <a class="link-btn"><i class="fb-icon"></i></a>
+            <a class="link-btn"><i class="twitter-icon"></i></a>
+            <a class="link-btn"><i class="insta-icon"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="fm-footer-copyright-strip">
+        Copyright 2021. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

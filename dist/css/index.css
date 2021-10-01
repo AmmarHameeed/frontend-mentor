@@ -2,6 +2,7 @@ body{
     margin: 0;
     overflow-x: hidden;
     font-family: 'Manrope', sans-serif;
+    background: #FAFAFA;
 }
 .fm-banner{
     position: relative;
@@ -225,6 +226,7 @@ a.fm-banner-see-product-btn {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background-size: 100%;
     background-image: url("../../assets/home/desktop/image-speaker-zx7.jpg");
 }
 .fm-post-zx7-speaker .inner-post-left{
@@ -266,7 +268,6 @@ a.fm-banner-see-product-btn {
 .fm-post-yx1-earphones {
     display: flex;
     height: 320px;
-    margin-bottom: 200px;
     justify-content: space-between;
 }
 .fm-post-yx1-earphones img{
@@ -287,6 +288,7 @@ a.fm-banner-see-product-btn {
 .fm-best-gear-section {
     display: flex;
     height: 588px;
+    margin-top: 200px;
     margin-bottom: 200px;
     justify-content: space-between;
 }
@@ -383,3 +385,94 @@ a.fm-banner-see-product-btn {
     color: #ffffff50;
     line-height: 25px;
 }
+/* Category Pages Start: Headphones */
+.fm-category-banner {
+    height: 336px;
+    background: #000000;
+}
+.fm-category-banner-text{
+    width: 50%;
+    margin: auto;
+    margin-top: 98px;
+}
+.fm-category-banner-heading{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.43px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: default;
+}
+.fm-category-product-wrapper{
+    margin-top: 157px;
+}
+.fm-category-product-box{
+    height: 560px;
+    display: flex;
+    margin-bottom: 162px;
+    align-items: center;
+}
+.fm-category-product-box.even{
+   flex-flow: row-reverse;
+}
+.product-box-left {
+    height: 100%;
+}
+.product-box-left img{
+    height: 100%;
+}
+.product-box-right{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.product-box-right .content-wrapper{
+    width: 445px;
+    margin: auto;
+}
+.product-box-new-product-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #D87D4A;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.product-box-heading {
+    width: 445px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.43px;
+    line-height: 44px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.product-box-description {
+    margin-bottom: 65px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;
+    color: #000000;
+}
+.category-see-product-btn {
+    display: block;
+    width: 160px;
+    height: 48px;
+    background: #d87d4a;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 48px;
+    cursor: pointer;
+}
+.category-see-product-btn:hover {
+    background: #FBAF85;
+    color: #ffffff;
+}
+/* Category Pages End : Headphones */
