@@ -7,8 +7,9 @@ body{
 .fm-banner{
     position: relative;
     height: 729px;
-    background-position: center;
-    background-size: contain;
+    background-position: center center;
+    background-size: 100% 100%;
+    /* background-size: contain; */
     background-repeat: no-repeat;
     background-image: url("../../assets/home/desktop/image-hero.jpg");
 }
