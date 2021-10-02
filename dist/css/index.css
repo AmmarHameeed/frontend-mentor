@@ -477,3 +477,239 @@ a.fm-banner-see-product-btn {
     color: #ffffff;
 }
 /* Category Pages End : Headphones */
+
+/* Product Detail Pages Start : Headphones */
+.fm-product-detail-banner{
+    height: 97px;
+    background: #000000;
+}
+.fm-product-detail-banner .fm-nav{
+    border: 0;
+    padding-bottom: 35px;
+}
+.go-back-tocategory-page-wrapper {
+    margin-top: 78px;
+    margin-bottom: 55px;
+}
+.go-back-category-btn {
+    font-size: 15px;
+    font-weight: 200;
+    color: #000000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.product-detail-box {
+    height: 560px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+}
+.product-detail-img-wrapper {
+    height: 100%;
+}
+.product-detail-img-wrapper img {
+    height: 100%;
+}
+.product-detail-img-desc .content-wrapper {
+    width: 445px;
+    padding-left: 95px;
+}
+.pd-new-product-text {
+    font-size: 14px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    color: #d87d4a;
+    text-transform: uppercase;
+}
+.pd-product-heading {
+    color: #000000;
+    margin: 15px 0 30px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1.43px;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+.pd-product-desc {
+    margin-bottom: 55px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;
+}
+.pd-product-price {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.29px;
+}
+.pd-action-row{
+    margin-top: 45px;
+}
+.pd-counter {
+    width: 120px;
+    /* float: left; */
+    height: 48px;
+    background: #F1F1F1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pd-counter a.counter-btn {
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 33%;
+    height: 100%;
+    line-height: 48px;
+    text-align: center;
+}
+.pd-quantity {
+    font-size: 13px;
+    font-weight: 700;
+    color: #000000;
+    width: 33%;
+    text-align: center;
+}
+.add-to-cart-btn {
+    display: block;
+    margin-left: 11px;
+    background: #D87D4A;
+    width: 160px;
+    height: 48px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 48px;
+    cursor: pointer;
+}
+.add-to-cart-btn:hover {
+    background: #FBAF85;
+    color: #ffffff;
+}
+.fm-feature-section {
+    margin: 160px 0;
+    display: flex;
+}
+.feature-section-left {
+    width: 55%;
+}
+.feature-section-right {
+    width: 45%;
+    padding-left: 150px;
+}
+.fs-feature-heading{
+    margin-bottom: 35px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.14px;
+    text-transform: uppercase;
+}
+p.fs-feature-desc {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;
+}
+.feature-list-heading {
+    margin-bottom: 35px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.14px;
+    text-transform: uppercase;
+}
+.feature-row {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.fr-quantity {
+    color: #D87D4A;
+    width: 8%;
+    font-size: 15px;
+    font-weight: 700;
+}
+.fr-item {
+    font-size: 15px;
+    font-weight: 200;
+    color: #000000;
+}
+.orange-btn {
+    display: block;
+    margin-left: 11px;
+    background: #D87D4A;
+    width: 160px;
+    height: 48px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 48px;
+    cursor: pointer;
+}
+.orange-btn:hover {
+    background: #FBAF85;
+    color: #ffffff;
+}
+.product-gallery-section {
+    display: flex;
+    height: 592px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.stacked-image{
+    width: 445px;
+    display: flex;
+    flex-flow: column;
+    justify-content: inherit;
+}
+.product-gallery-section img{
+    border-radius: 8px;
+}
+.suggested-product-section {
+    margin-top: 160px;
+}
+.sp-section-heading{
+    margin-bottom: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.14px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.sp-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sp-item {
+    width: 33%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.sp-item img{
+    width: 350px;
+    border-radius: 8px;
+}
+.sp-item-name {
+    margin: 36px 0 33px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.71px;
+    text-transform: uppercase;
+    cursor: default;
+}
+/* Product Detail Pages End : Headphones */
